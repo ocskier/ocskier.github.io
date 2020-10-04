@@ -807,6 +807,10 @@
 		text-align: center;
 		color: #fff;
 	}
+#aboutme {
+	min-height: 320px;
+}
+
 
 	/* Colored Elements */
 
