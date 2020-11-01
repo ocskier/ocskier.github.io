@@ -25,3 +25,11 @@ li.linkedin, li.facebook, li.twitter, li.skype {
     top: 4%;
     right: 3%;
 }
+
+.fa-linkedin {
+    color: antiquewhite;
+}
+
+.fa-skype {
+    color: blue;
+}
