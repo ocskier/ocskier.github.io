@@ -71,14 +71,14 @@ const Proj11 = new Project(
   "images/fabio-alves-773406-unsplash.jpg",
   "Serialize Burger",
   "https://github.com/ocskier/sequelizedBurger",
-  ['sql']
+  ['express','sql','ts']
 );
 const Proj12 = new Project(
   "https://aristotle-app.herokuapp.com/",
   "images/jeshoots-com-436787-unsplash.jpg",
   "Aristotle",
   "https://github.com/ocskier/Aristotle",
-  ['sql']
+  ['express','sql']
 );
 // const Proj13=new Project("http://mongoscraps.herokuapp.com/","images/hannah_gibbs_1067876.jpg","Mongo Scraper","https://github.com/ocskier/Mongo-Scraper");
 const Proj14 = new Project(
@@ -107,7 +107,7 @@ const Proj17 = new Project(
   "images/fancycrave.jpg",
   "Bamazon",
   "https://github.com/ocskier/Bamazon",
-  ['node']
+  ['node','sql']
 );
 const Proj18 = new Project(
   "https://ocskier.github.io/Memory/",
@@ -122,10 +122,58 @@ const Proj19 = new Project(
   "https://images.vexels.com/media/users/3/135811/isolated/preview/f3dc1094d770aadce0dff261623fddb6-dices-3d-icon-by-vexels.png",
   "Yahtzee",
   "https://github.com/ocskier/Yahtzee-Online",
-  ['mern']
+  ['mern','ts']
 );
 
 const Proj20 = new Project(
+  "https://ocskier.github.io/QuizGame/",
+  "images/question-mark-1872665_1280.jpg",
+  "Quiz Game",
+  "https://github.com/ocskier/QuizGame",
+  ['html']
+);
+
+const Proj21 = new Project(
+  null,
+  "images/sample3__1528944557_50988.jpg",
+  "Employee Database",
+  "https://github.com/ocskier/IncDbCli",
+  ['node', 'sql', 'ts']
+);
+
+const Proj22 = new Project(
+  "https://ocskier.github.io/UsrDirTSX/",
+  "images/sample3__1528944557_50988.jpg",
+  "Employee Search",
+  "https://github.com/ocskier/UsrDirTSX",
+  ['react','ts']
+);
+
+const Proj23 = new Project(
+  null,
+  "https://user-images.githubusercontent.com/36890724/73634091-60852580-462e-11ea-9275-1d0eeeca137a.png",
+  "Template Engine",
+  "https://github.com/ocskier/HTMLTemplateEngine",
+  ['node','ts']
+);
+
+const Proj24 = new Project(
+  "https://pwdgenerator.herokuapp.com/",
+  "images/question-mark-1872665_1280.jpg",
+  "Pwd Generator",
+  "https://github.com/ocskier/pwdGenFullStack",
+  ['express','html','ts']
+);
+
+const Proj25 = new Project(
+  null,
+  "images/sample3__1528944557_50988.jpg",
+  "Md Generator",
+  "https://github.com/ocskier/RMGenTS",
+  ['node','ts']
+);
+
+const Proj26 = new Project(
   "https://tutor-dashboard.herokuapp.com/",
   "images/sample3__1528944557_50988.jpg",
   "Tutor-Dashboard",
@@ -151,16 +199,31 @@ projectsArray.push(
   Proj17,
   Proj18,
   Proj19,
-  Proj20
+  Proj20,
+  Proj21,
+  Proj22,
+  Proj23,
+  Proj24,
+  Proj25,
+  Proj26
 );
 
-$.each(projectsArray, function(index, project) {
+const shuffleArray = projects => {
+  const newArray = projects;
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+};
+
+$.each(shuffleArray(projectsArray), function(index, project) {
   $("#portfolio-content").append(`
     <li class="full-thumb ${project.tech.map(tech=>`f-${tech}`).join(" ")}">
         <img src=${project.pic} width=220 height=165 alt=${project.name}/>
         <div class="div-info" style="display: flex;">
         <div style="display: inline-flex;">
-          <a href=${project.url} class="fancybox" rel="group" title=${project.name} target="_blank">
+          <a href=${project.url ? project.url : project.ghLink} class="fancybox" rel="group" title=${project.name} target="_blank">
             <div class="thumb-icon-photo"></div>
           </a>
           <div class="thumb-icon-github">
