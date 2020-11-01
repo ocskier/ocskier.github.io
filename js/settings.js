@@ -211,20 +211,20 @@ $(function () {
 
         // Initialize Gmap
         function initGmap() {
-            var position = new google.maps.LatLng(36.143247, -115.160151);
+            var position = new google.maps.LatLng(35.926909, -78.742197);
 
             $('#map').gmap3({
                 map: {
                     options: {
                         center: position,
-                        zoom: 15,
+                        zoom: 9,
                         mapTypeId: google.maps.MapTypeId.TERRAIN
                     }
                 },
                 marker: {
                     values: [
                         {latLng: position},
-                        {latLng: [36.149762, -115.152726]}
+                        {latLng: [35.926909, -78.742197]}
                     ],
                     options: {
                         draggable: false,
