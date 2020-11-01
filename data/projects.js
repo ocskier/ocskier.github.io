@@ -117,6 +117,22 @@ const Proj18 = new Project(
   ['react']
 );
 
+const Proj19 = new Project(
+  "https://yahtzee-react-app.herokuapp.com/",
+  "https://images.vexels.com/media/users/3/135811/isolated/preview/f3dc1094d770aadce0dff261623fddb6-dices-3d-icon-by-vexels.png",
+  "Yahtzee",
+  "https://github.com/ocskier/Yahtzee-Online",
+  ['mern']
+);
+
+const Proj20 = new Project(
+  "https://tutor-dashboard.herokuapp.com/",
+  "../images/sample3__1528944557_50988.jpg",
+  "Tutor-Dashboard",
+  "https://github.com/ocskier/TutorDashboard",
+  ['python']
+);
+
 const projectsArray = [];
 projectsArray.push(
   Proj1,
@@ -134,6 +150,8 @@ projectsArray.push(
   Proj16,
   Proj17,
   Proj18,
+  Proj19,
+  Proj20
 );
 
 $.each(projectsArray, function(index, project) {
