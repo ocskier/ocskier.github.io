@@ -721,20 +721,25 @@
 	}
 
 	.minip-1 {
-		background: url(../images/photocontent/thumbs_minislider.jpg);
+		background: url(../images/fabio-alves-773406-unsplash.jpg);
 	}
 
 	.minip-2 {
-		background: url(../images/photocontent/thumbs_minislider.jpg) -110px 0;
+		background: url(../images/BN-XN.jpg) -110px 0;
 	}
 
 	.minip-3 {
-		background: url(../images/photocontent/thumbs_minislider.jpg) -220px 0;
+		background: url(../images/gonzalo-remy-JCIJnIXv7SE-unsplash.jpg) -220px 0;
 	}
 
 	.minip-4 {
-		background: url(../images/photocontent/thumbs_minislider.jpg) -330px 0;
+		background: url(../images/railway-station-619082_1280.jpg) -330px 0;
 	}
+	.minip-1,.minip-2,.minip-3,.minip-4 {
+		background-position: 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	} 
 
 	.medip-1, .medip-2 {
 		width: 230px;
