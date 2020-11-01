@@ -93,7 +93,7 @@ const Proj15 = new Project(
   "images/Screenshot_Proj.png",
   "WishList",
   "https://github.com/ocskier/WishList",
-  ['mern']
+  ['mern','express','react']
 );
 const Proj16 = new Project(
   "https://ocskier.github.io/Word-Guess-Game/",
@@ -122,7 +122,7 @@ const Proj19 = new Project(
   "https://images.vexels.com/media/users/3/135811/isolated/preview/f3dc1094d770aadce0dff261623fddb6-dices-3d-icon-by-vexels.png",
   "Yahtzee",
   "https://github.com/ocskier/Yahtzee-Online",
-  ['mern','ts']
+  ['mern','ts','react']
 );
 
 const Proj20 = new Project(
@@ -178,7 +178,7 @@ const Proj26 = new Project(
   "images/sample3__1528944557_50988.jpg",
   "Tutor-Dashboard",
   "https://github.com/ocskier/TutorDashboard",
-  ['python']
+  ['python','react']
 );
 
 const projectsArray = [];
