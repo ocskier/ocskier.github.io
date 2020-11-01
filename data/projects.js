@@ -127,7 +127,7 @@ const Proj19 = new Project(
 
 const Proj20 = new Project(
   "https://tutor-dashboard.herokuapp.com/",
-  "../images/sample3__1528944557_50988.jpg",
+  "images/sample3__1528944557_50988.jpg",
   "Tutor-Dashboard",
   "https://github.com/ocskier/TutorDashboard",
   ['python']
