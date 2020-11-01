@@ -127,6 +127,11 @@ $.each(projectsArray, function(index, project) {
         <div class="div-info">
         <a href=${project.Url} class="fancybox" rel="group" title=${project.Name} target="_blank">
           <div class="thumb-icon-photo"></div>
+          <div class="thumb-icon-github">
+            <a id="logo-container" class="github-logo" href="https://github.com/ocskier" class="brand-logo">
+              <img src="images/GitHub-Mark-Light-120px-plus.png" width="35px" height="35px">
+            </a>
+          </div>
         </a>
           <div class="thumb-name">${project.Name}</div>
         </div>
