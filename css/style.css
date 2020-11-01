@@ -33,3 +33,11 @@ li.linkedin, li.facebook, li.twitter, li.skype {
 .fa-skype {
     color: blue;
 }
+
+.thumb-name {
+    display: flex;
+    align-items: center;
+}
+.thumb-icon-github {
+    margin: auto 0.75rem;
+}

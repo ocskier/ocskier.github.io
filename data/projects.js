@@ -124,16 +124,18 @@ $.each(projectsArray, function(index, project) {
   $("#portfolio-content").append(`
     <li class="full-thumb f-photo">
         <img src=${project.Pic} width=220 height=165 alt=${project.Name}/>
-        <div class="div-info">
-        <a href=${project.Url} class="fancybox" rel="group" title=${project.Name} target="_blank">
-          <div class="thumb-icon-photo"></div>
+        <div class="div-info" style="display: flex;">
+        <div style="display: inline-flex;">
+          <a href=${project.Url} class="fancybox" rel="group" title=${project.Name} target="_blank">
+            <div class="thumb-icon-photo"></div>
+          </a>
           <div class="thumb-icon-github">
-            <a id="logo-container" class="github-logo" href="https://github.com/ocskier" class="brand-logo">
-              <img src="images/GitHub-Mark-Light-120px-plus.png" width="35px" height="35px">
+            <a id="logo-container" href=${project.GHLink} class="brand-logo" target="_blank">
+              <img src="images/GitHub-Mark-Light-120px-plus.png" style="margin: 3px 0 0 0;" width="25px" height="25px">
             </a>
           </div>
-        </a>
-          <div class="thumb-name">${project.Name}</div>
+        </div>
+        <div class="thumb-name">${project.Name}</div>
         </div>
     </li>`)
 });
