@@ -1,0 +1,27 @@
+.contact-social {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-social li {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+li.linkedin, li.facebook, li.twitter, li.skype {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .right-column {
+    float: none;
+    margin: 0 auto;
+}
+
+.github-logo {
+    position: absolute;
+    top: 4%;
+    right: 3%;
+}
