@@ -181,6 +181,14 @@ const Proj26 = new Project(
   ['python','react']
 );
 
+const Proj27 = new Project(
+  "https://stock-tracker-101.herokuapp.com/",
+  "images/fabian-blank-pElSkGRA2NU-unsplash.jpg",
+  "Stock Dashboard",
+  "https://github.com/ocskier/MyPythonProj",
+  ["python", "react"]
+);
+
 const projectsArray = [];
 projectsArray.push(
   Proj1,
@@ -205,7 +213,8 @@ projectsArray.push(
   Proj23,
   Proj24,
   Proj25,
-  Proj26
+  Proj26,
+  Proj27,
 );
 
 const shuffleArray = projects => {
