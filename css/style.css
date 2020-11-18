@@ -41,3 +41,7 @@ li.linkedin, li.facebook, li.twitter, li.skype {
 .thumb-icon-github {
     margin: auto 0.75rem;
 }
+
+.projectLi {
+    box-shadow: black 0px 0px 7px 2px;
+}

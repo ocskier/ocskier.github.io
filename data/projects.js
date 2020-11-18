@@ -228,7 +228,7 @@ const shuffleArray = projects => {
 
 $.each(shuffleArray(projectsArray), function(index, project) {
   $("#portfolio-content").append(`
-    <li class="full-thumb ${project.tech.map(tech=>`f-${tech}`).join(" ")}">
+    <li class="full-thumb projectLi ${project.tech.map(tech=>`f-${tech}`).join(" ")}">
         <img src=${project.pic} width=220 height=165 alt=${project.name}/>
         <div class="div-info" style="display: flex;">
         <div style="display: inline-flex;">
