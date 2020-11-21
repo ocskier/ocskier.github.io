@@ -189,6 +189,14 @@ const Proj27 = new Project(
   ["python", "react"]
 );
 
+const Proj28 = new Project(
+  "https://ocskier.github.io/Time-Manager/",
+  "images/DayCapture.PNG",
+  "Day Planner",
+  "https://github.com/ocskier/Time-Manager",
+  ["html"]
+);
+
 const projectsArray = [];
 projectsArray.push(
   Proj1,
@@ -215,6 +223,7 @@ projectsArray.push(
   Proj25,
   Proj26,
   Proj27,
+  Proj28
 );
 
 const shuffleArray = projects => {
