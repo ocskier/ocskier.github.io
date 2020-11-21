@@ -192,7 +192,7 @@ const Proj27 = new Project(
 const Proj28 = new Project(
   "https://ocskier.github.io/Time-Manager/",
   "images/DayCapture.PNG",
-  "Day Planner",
+  "Work Day Scheduler",
   "https://github.com/ocskier/Time-Manager",
   ["html"]
 );
