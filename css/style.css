@@ -45,3 +45,11 @@ li.linkedin, li.facebook, li.twitter, li.skype {
 .projectLi {
     box-shadow: black 0px 0px 7px 2px;
 }
+
+.full-width {
+    margin: 20px auto;
+}
+
+.main-info-list > li > a > span {
+    text-decoration: underline !important;
+}
