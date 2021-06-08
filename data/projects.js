@@ -182,7 +182,7 @@ const Proj26 = new Project(
 );
 
 const Proj27 = new Project(
-  'https://stock-tracker-101.herokuapp.com/',
+  'https://stock-tracker-py.herokuapp.com/',
   'images/fabian-blank-pElSkGRA2NU-unsplash.jpg',
   'Stock Dashboard',
   'https://github.com/ocskier/MyPythonProj',
