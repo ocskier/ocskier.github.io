@@ -89,7 +89,7 @@ const Proj14 = new Project(
   ['react']
 );
 const Proj15 = new Project(
-  'https://wishlist-p3t6-app.herokuapp.com/',
+  'https://wishlist-app-mern.herokuapp.com/',
   'images/Screenshot_Proj.png',
   'WishList',
   'https://github.com/ocskier/WishList',
