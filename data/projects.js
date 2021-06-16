@@ -197,6 +197,14 @@ const Proj28 = new Project(
   ['html']
 );
 
+const Proj29 = new Project(
+  'https://customers-spring-java.herokuapp.com/hello',
+  'images/sample3__1528944557_50988.jpg',
+  'Bobs Burgers Java',
+  'https://github.com/ocskier/spring-with-dba-thymeleaf',
+  ['html', 'java']
+);
+
 const projectsArray = [];
 projectsArray.push(
   Proj1,
@@ -223,7 +231,8 @@ projectsArray.push(
   Proj25,
   Proj26,
   Proj27,
-  Proj28
+  Proj28,
+  Proj29
 );
 
 const shuffleArray = (projects) => {
