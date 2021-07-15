@@ -205,6 +205,14 @@ const Proj29 = new Project(
   ['html', 'java']
 );
 
+const Proj30 = new Project(
+  'https://graphql-subscriptions-chatbox.herokuapp.com/',
+  'images/sample3__1528944557_50988.jpg',
+  'ChatBox',
+  'https://github.com/ocskier/graphql-subscriptions-chat',
+  ['html', 'express', 'node', 'react']
+);
+
 const projectsArray = [];
 projectsArray.push(
   Proj1,
@@ -232,7 +240,8 @@ projectsArray.push(
   Proj26,
   Proj27,
   Proj28,
-  Proj29
+  Proj29,
+  Proj30
 );
 
 const shuffleArray = (projects) => {
