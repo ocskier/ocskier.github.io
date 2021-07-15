@@ -210,7 +210,7 @@ const Proj30 = new Project(
   'images/sample3__1528944557_50988.jpg',
   'ChatBox',
   'https://github.com/ocskier/graphql-subscriptions-chat',
-  ['html', 'express', 'node', 'react']
+  ['html', 'express', 'node', 'react', 'mern']
 );
 
 const projectsArray = [];
