@@ -207,7 +207,7 @@ const Proj29 = new Project(
 
 const Proj30 = new Project(
   'https://graphql-subscriptions-chatbox.herokuapp.com/',
-  'images/sample3__1528944557_50988.jpg',
+  'https://cdn.wpspeedmatters.com/wp-content/uploads/2019/12/chat-bubbles-1160x680.jpg',
   'ChatBox',
   'https://github.com/ocskier/graphql-subscriptions-chat',
   ['html', 'express', 'node', 'react', 'mern']
