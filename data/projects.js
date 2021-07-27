@@ -213,6 +213,14 @@ const Proj30 = new Project(
   ['html', 'express', 'node', 'react', 'mern']
 );
 
+const Proj31 = new Project(
+  'https://ocskier.github.io/google-maps-places-ex/',
+  '/images/google-maps-app-ss.PNG',
+  'Triangle Pub Scene',
+  'https://github.com/ocskier/google-maps-places-ex',
+  ['html']
+);
+
 const projectsArray = [];
 projectsArray.push(
   Proj1,
@@ -241,7 +249,8 @@ projectsArray.push(
   Proj27,
   Proj28,
   Proj29,
-  Proj30
+  Proj30,
+  Proj31
 );
 
 const shuffleArray = (projects) => {
