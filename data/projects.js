@@ -215,7 +215,7 @@ const Proj30 = new Project(
 
 const Proj31 = new Project(
   'https://ocskier.github.io/google-maps-places-ex/',
-  '/images/google-maps-app-ss.PNG',
+  'images/google-maps-app-ss.PNG',
   'Triangle Pub Scene',
   'https://github.com/ocskier/google-maps-places-ex',
   ['html']
