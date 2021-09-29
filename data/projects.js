@@ -30,13 +30,13 @@ const Proj4 = new Project(
   'https://github.com/ocskier/Trivia-Game',
   ['html']
 );
-const Proj5 = new Project(
-  'https://ocskier.github.io/Star-Wars-Battle/',
-  'images/main-thumb-t-1785517-200-boztfctkwxbzmfjwurneimbimaluhaxk.jpeg',
-  'Star Wars Battle',
-  'https://github.com/ocskier/Star-Wars-Battle',
-  ['html']
-);
+// const Proj5 = new Project(
+//   'https://ocskier.github.io/Star-Wars-Battle/',
+//   'images/main-thumb-t-1785517-200-boztfctkwxbzmfjwurneimbimaluhaxk.jpeg',
+//   'Star Wars Battle',
+//   'https://github.com/ocskier/Star-Wars-Battle',
+//   ['html']
+// );
 const Proj6 = new Project(
   'https://ocskier.github.io/Tithe/',
   'images/tithe-favicon.1.png',
@@ -117,13 +117,13 @@ const Proj18 = new Project(
   ['react']
 );
 
-const Proj19 = new Project(
-  'https://yahtzee-react-app.herokuapp.com/',
-  'https://images.vexels.com/media/users/3/135811/isolated/preview/f3dc1094d770aadce0dff261623fddb6-dices-3d-icon-by-vexels.png',
-  'Yahtzee',
-  'https://github.com/ocskier/Yahtzee-Online',
-  ['mern', 'ts', 'react']
-);
+// const Proj19 = new Project(
+//   'https://yahtzee-react-app.herokuapp.com/',
+//   'https://images.vexels.com/media/users/3/135811/isolated/preview/f3dc1094d770aadce0dff261623fddb6-dices-3d-icon-by-vexels.png',
+//   'Yahtzee',
+//   'https://github.com/ocskier/Yahtzee-Online',
+//   ['mern', 'ts', 'react']
+// );
 
 const Proj20 = new Project(
   'https://ocskier.github.io/QuizGame/',
@@ -234,11 +234,11 @@ projectsArray.push(
   Proj11,
   Proj12,
   Proj14,
-  Proj15,
+  // Proj15,
   Proj16,
   Proj17,
   Proj18,
-  Proj19,
+  // Proj19,
   Proj20,
   Proj21,
   Proj22,
