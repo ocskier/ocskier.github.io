@@ -52,7 +52,7 @@ const Proj7 = new Project(
   ['html']
 );
 const Proj8 = new Project(
-  null,
+  'https://stackblitz.com/edit/node-baajex',
   'images/bot.jpg',
   'LIRI Bot',
   'https://github.com/ocskier/LIRI-Node-App',
