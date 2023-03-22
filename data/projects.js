@@ -158,7 +158,7 @@ const Proj23 = new Project(
 );
 
 const Proj24 = new Project(
-  'https://pwdgenerator.herokuapp.com/',
+  'https://online-password-generator.onrender.com',
   'images/question-mark-1872665_1280.jpg',
   'Pwd Generator',
   'https://github.com/ocskier/pwdGenFullStack',
@@ -287,3 +287,4 @@ $.each(shuffleArray(projectsArray), function (index, project) {
         </div>
     </li>`);
 });
+
